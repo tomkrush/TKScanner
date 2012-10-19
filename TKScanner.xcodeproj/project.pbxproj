@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6276339F1630D6470051EC89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6276339E1630D6470051EC89 /* UIKit.framework */; };
+		627633A11630D6470051EC89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627633A01630D6470051EC89 /* Foundation.framework */; };
+		627633A31630D6470051EC89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627633A21630D6470051EC89 /* CoreGraphics.framework */; };
+		627633A91630D6470051EC89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627633A71630D6470051EC89 /* InfoPlist.strings */; };
+		627633AB1630D6470051EC89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627633AA1630D6470051EC89 /* main.m */; };
+		627633AF1630D6470051EC89 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627633AE1630D6470051EC89 /* TAAppDelegate.m */; };
+		627633B11630D6470051EC89 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 627633B01630D6470051EC89 /* Default.png */; };
+		627633B31630D6470051EC89 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 627633B21630D6470051EC89 /* Default@2x.png */; };
+		627633B51630D6470051EC89 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 627633B41630D6470051EC89 /* Default-568h@2x.png */; };
+		627633BD1630D6470051EC89 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627633BC1630D6470051EC89 /* SenTestingKit.framework */; };
+		627633BE1630D6470051EC89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6276339E1630D6470051EC89 /* UIKit.framework */; };
+		627633BF1630D6470051EC89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627633A01630D6470051EC89 /* Foundation.framework */; };
+		627633C71630D6470051EC89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627633C51630D6470051EC89 /* InfoPlist.strings */; };
+		627633CA1630D6470051EC89 /* TKScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627633C91630D6470051EC89 /* TKScannerTests.m */; };
+		627633D61630D6AE0051EC89 /* TKScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 627633D51630D6AE0051EC89 /* TKScanner.m */; };
+		627633D71630D6AE0051EC89 /* TKScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 627633D51630D6AE0051EC89 /* TKScanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		627633C01630D6470051EC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 627633911630D6470051EC89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 627633991630D6470051EC89;
+			remoteInfo = TKScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6276339A1630D6470051EC89 /* TKScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6276339E1630D6470051EC89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		627633A01630D6470051EC89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		627633A21630D6470051EC89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		627633A61630D6470051EC89 /* TKScanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKScanner-Info.plist"; sourceTree = "<group>"; };
+		627633A81630D6470051EC89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		627633AA1630D6470051EC89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		627633AC1630D6470051EC89 /* TKScanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TKScanner-Prefix.pch"; sourceTree = "<group>"; };
+		627633AD1630D6470051EC89 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TAAppDelegate.h; path = TKScanner/TAAppDelegate.h; sourceTree = "<group>"; };
+		627633AE1630D6470051EC89 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TAAppDelegate.m; path = TKScanner/TAAppDelegate.m; sourceTree = "<group>"; };
+		627633B01630D6470051EC89 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		627633B21630D6470051EC89 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		627633B41630D6470051EC89 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		627633BB1630D6470051EC89 /* TKScannerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKScannerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		627633BC1630D6470051EC89 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		627633C41630D6470051EC89 /* TKScannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKScannerTests-Info.plist"; sourceTree = "<group>"; };
+		627633C61630D6470051EC89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		627633C81630D6470051EC89 /* TKScannerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKScannerTests.h; sourceTree = "<group>"; };
+		627633C91630D6470051EC89 /* TKScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKScannerTests.m; sourceTree = "<group>"; };
+		627633D41630D6AE0051EC89 /* TKScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKScanner.h; sourceTree = "<group>"; };
+		627633D51630D6AE0051EC89 /* TKScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKScanner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		627633971630D6470051EC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6276339F1630D6470051EC89 /* UIKit.framework in Frameworks */,
+				627633A11630D6470051EC89 /* Foundation.framework in Frameworks */,
+				627633A31630D6470051EC89 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627633B71630D6470051EC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627633BD1630D6470051EC89 /* SenTestingKit.framework in Frameworks */,
+				627633BE1630D6470051EC89 /* UIKit.framework in Frameworks */,
+				627633BF1630D6470051EC89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6276338F1630D6470051EC89 = {
+			isa = PBXGroup;
+			children = (
+				627633A51630D6470051EC89 /* Supporting Files */,
+				627633D31630D6700051EC89 /* Scanner */,
+				627633C21630D6470051EC89 /* TKScannerTests */,
+				6276339D1630D6470051EC89 /* Frameworks */,
+				6276339B1630D6470051EC89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6276339B1630D6470051EC89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6276339A1630D6470051EC89 /* TKScanner.app */,
+				627633BB1630D6470051EC89 /* TKScannerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6276339D1630D6470051EC89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6276339E1630D6470051EC89 /* UIKit.framework */,
+				627633A01630D6470051EC89 /* Foundation.framework */,
+				627633A21630D6470051EC89 /* CoreGraphics.framework */,
+				627633BC1630D6470051EC89 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		627633A51630D6470051EC89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				627633A61630D6470051EC89 /* TKScanner-Info.plist */,
+				627633A71630D6470051EC89 /* InfoPlist.strings */,
+				627633AA1630D6470051EC89 /* main.m */,
+				627633AC1630D6470051EC89 /* TKScanner-Prefix.pch */,
+				627633B01630D6470051EC89 /* Default.png */,
+				627633B21630D6470051EC89 /* Default@2x.png */,
+				627633B41630D6470051EC89 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = TKScanner;
+			sourceTree = "<group>";
+		};
+		627633C21630D6470051EC89 /* TKScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				627633C81630D6470051EC89 /* TKScannerTests.h */,
+				627633C91630D6470051EC89 /* TKScannerTests.m */,
+				627633C31630D6470051EC89 /* Supporting Files */,
+			);
+			path = TKScannerTests;
+			sourceTree = "<group>";
+		};
+		627633C31630D6470051EC89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				627633C41630D6470051EC89 /* TKScannerTests-Info.plist */,
+				627633C51630D6470051EC89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		627633D31630D6700051EC89 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				627633AD1630D6470051EC89 /* TAAppDelegate.h */,
+				627633AE1630D6470051EC89 /* TAAppDelegate.m */,
+				627633D41630D6AE0051EC89 /* TKScanner.h */,
+				627633D51630D6AE0051EC89 /* TKScanner.m */,
+			);
+			name = Scanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		627633991630D6470051EC89 /* TKScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627633CD1630D6470051EC89 /* Build configuration list for PBXNativeTarget "TKScanner" */;
+			buildPhases = (
+				627633961630D6470051EC89 /* Sources */,
+				627633971630D6470051EC89 /* Frameworks */,
+				627633981630D6470051EC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKScanner;
+			productName = TKScanner;
+			productReference = 6276339A1630D6470051EC89 /* TKScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		627633BA1630D6470051EC89 /* TKScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627633D01630D6470051EC89 /* Build configuration list for PBXNativeTarget "TKScannerTests" */;
+			buildPhases = (
+				627633B61630D6470051EC89 /* Sources */,
+				627633B71630D6470051EC89 /* Frameworks */,
+				627633B81630D6470051EC89 /* Resources */,
+				627633B91630D6470051EC89 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				627633C11630D6470051EC89 /* PBXTargetDependency */,
+			);
+			name = TKScannerTests;
+			productName = TKScannerTests;
+			productReference = 627633BB1630D6470051EC89 /* TKScannerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627633911630D6470051EC89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tom Krush";
+			};
+			buildConfigurationList = 627633941630D6470051EC89 /* Build configuration list for PBXProject "TKScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6276338F1630D6470051EC89;
+			productRefGroup = 6276339B1630D6470051EC89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627633991630D6470051EC89 /* TKScanner */,
+				627633BA1630D6470051EC89 /* TKScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627633981630D6470051EC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627633A91630D6470051EC89 /* InfoPlist.strings in Resources */,
+				627633B11630D6470051EC89 /* Default.png in Resources */,
+				627633B31630D6470051EC89 /* Default@2x.png in Resources */,
+				627633B51630D6470051EC89 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627633B81630D6470051EC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627633C71630D6470051EC89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		627633B91630D6470051EC89 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		627633961630D6470051EC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627633AB1630D6470051EC89 /* main.m in Sources */,
+				627633AF1630D6470051EC89 /* TAAppDelegate.m in Sources */,
+				627633D61630D6AE0051EC89 /* TKScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		627633B61630D6470051EC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627633CA1630D6470051EC89 /* TKScannerTests.m in Sources */,
+				627633D71630D6AE0051EC89 /* TKScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		627633C11630D6470051EC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 627633991630D6470051EC89 /* TKScanner */;
+			targetProxy = 627633C01630D6470051EC89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		627633A71630D6470051EC89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627633A81630D6470051EC89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		627633C51630D6470051EC89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627633C61630D6470051EC89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		627633CB1630D6470051EC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		627633CC1630D6470051EC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		627633CE1630D6470051EC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKScanner/TKScanner-Prefix.pch";
+				INFOPLIST_FILE = "TKScanner/TKScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		627633CF1630D6470051EC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKScanner/TKScanner-Prefix.pch";
+				INFOPLIST_FILE = "TKScanner/TKScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		627633D11630D6470051EC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TKScanner.app/TKScanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKScanner/TKScanner-Prefix.pch";
+				INFOPLIST_FILE = "TKScannerTests/TKScannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		627633D21630D6470051EC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TKScanner.app/TKScanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKScanner/TKScanner-Prefix.pch";
+				INFOPLIST_FILE = "TKScannerTests/TKScannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		627633941630D6470051EC89 /* Build configuration list for PBXProject "TKScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627633CB1630D6470051EC89 /* Debug */,
+				627633CC1630D6470051EC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627633CD1630D6470051EC89 /* Build configuration list for PBXNativeTarget "TKScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627633CE1630D6470051EC89 /* Debug */,
+				627633CF1630D6470051EC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		627633D01630D6470051EC89 /* Build configuration list for PBXNativeTarget "TKScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627633D11630D6470051EC89 /* Debug */,
+				627633D21630D6470051EC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627633911630D6470051EC89 /* Project object */;
+}
